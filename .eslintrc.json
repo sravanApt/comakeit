@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react-hooks", "jsx-a11y", "jest"],
+  "extends": [
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "func-names": 0,
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "max-len": ["error", { "code": 200, "ignoreStrings": true }],
+    "no-class-assign": 0,
+    "no-empty": 0,
+    "no-multiple-empty-lines": "error",
+    "no-param-reassign": 0,
+    "no-shadow": 0,
+    "no-use-before-define": 0,
+    "no-unused-expressions": 0,
+    "prefer-const": "error",
+    "prefer-destructuring": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-closing-tag-location": 0,
+    "react/jsx-curly-newline": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-array-index-key": 0,
+    "react/no-danger": 2,
+    "react/no-find-dom-node": 0,
+    "react/no-typos": 0,
+    "react/no-unused-prop-types": 0,
+    "react/prop-types": 0,
+    "react/require-default-props": 0,
+    "react/sort-comp": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

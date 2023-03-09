@@ -1,0 +1,22 @@
+# Cruft
+*~
+*#
+.#*
+.DS_Store
+
+# Test
+coverage
+.eslintcache
+*.snap
+
+# Logs
+*.log
+
+# npm
+node_modules/
+.npm
+.npmrc
+npm-debug.log*
+
+# Editor/IDE
+build
